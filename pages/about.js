@@ -1,7 +1,6 @@
 
-
+/*
 // 1 -
-
 
 const AboutPage = () => {
 
@@ -37,7 +36,6 @@ export default AboutPage;
 // the backend and so far we have been working in the frontend exclusively so let's make our
 // first commit in the frontend and we do that by doing the following ( please refer to my notes
 // in the app-next-tutorial.js file ):
-
 
 
 // ==============================
@@ -103,11 +101,162 @@ export default AboutPage;
 // STEP 1 - THE END
 // ****************
 
-
-
-
+// and we have successfully set up our GitHub repository for the " course-next-dj-events-frontend "
 
 // End of 2 -
 
 
 // End of 1 -
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ===============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// at the beginning of lecture 8, given all the notes, I created a new file below without
+// the notes so we are starting fresh
+
+/*
+// 3 -
+
+// coming from the pages/index.js 1 - file
+
+// import in the Link component
+import Link from 'next/link';
+
+// link back to the home page below 
+
+// End of 3 -
+
+
+const AboutPage = () => {
+
+    return (
+
+        <div>
+
+            <h1>About</h1>
+            <p>This is an app to find the latest DJ and other musical events</p>
+            <p>Version 1.0.0</p>
+
+            <Link href="/">
+                <a>Home</a>
+            </Link>
+
+        </div>
+
+    );
+
+}
+
+
+export default AboutPage;
+
+// and now Brad wants to take a minute and talk about seo and remember with next your initial
+// page is rendered on the server so that means that google can index your site and this is great
+// for seo and this is one of the top features of using next
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ===============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// at the beginning of lecture 9, given all the notes, I created a new file below without
+// the notes so we are starting fresh
+
+// if we wanted a different title on this page, for example, then we would import in the
+// Meta component and then pass in a title prop like the following: " title="DJ Events | About" "
+import Meta from '../components/Meta';
+
+
+const AboutPage = () => {
+
+    return (
+
+        <div>
+
+            <Meta title="DJ Events | About" />
+
+            <h1>About</h1>
+            <p>This is an app to find the latest DJ and other musical events</p>
+            <p>Version 1.0.0</p>
+
+        </div>
+
+    );
+
+}
+
+
+export default AboutPage;
+
+// and now Brad wants to take a minute and talk about seo and remember with next your initial
+// page is rendered on the server so that means that google can index your site and this is great
+// for seo and this is one of the top features of using next
+

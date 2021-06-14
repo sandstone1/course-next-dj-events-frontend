@@ -1,6 +1,6 @@
 
+/*
 // 1 -
-
 
 const AddEventPage = () => {
 
@@ -38,3 +38,77 @@ export default AddEventPage;
 // and let's go to the events/[slug].js 1 - file now
 
 // End of 1 -
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ===============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// at the beginning of lecture 8, given all the notes, I created a new file below without
+// the notes so we are starting fresh
+
+// the url for this page is: " http://localhost:3011/events/add "
+
+// import in the Meta component
+import Meta from '../../components/Meta';
+
+
+const AddEventPage = () => {
+
+    return (
+
+        <div>
+
+            <Meta title="Add New Event" />
+
+            <h1>Add Event</h1>
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum."
+            </p>
+
+        </div>
+
+    );
+
+}
+
+
+export default AddEventPage;
+
